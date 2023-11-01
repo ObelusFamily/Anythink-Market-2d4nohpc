@@ -93,6 +93,13 @@ return [
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
 
+        //MONGO DB CONNECTION
+        'mongodb' => [
+            'driver' => 'mongodb',
+              'dsn' => env('MONGODB_URI'),
+            'database' => 'moviesquest',
+            ],
+
     ],
 
     /*
